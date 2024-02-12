@@ -729,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2303deeee5d4fc296a05f50aa79b19a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 262441594}
+  _canvas: {fileID: 262441594}
   startGameButton: {fileID: 224881572}
   settingsButton: {fileID: 1979404475}
   fancyDialogButton: {fileID: 221870570}
@@ -746,8 +746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4186cc4090644219a5a3480f00698a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenUI: {fileID: 262441595}
-  panels: []
+  _screenUI: {fileID: 262441595}
+  _panels: []
 --- !u!1 &283990588
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,10 +841,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbca832480974bd0af4f0640f2ae4a05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 283990591}
-  buttonPrefab: {fileID: 1616965129}
-  message: {fileID: 1383220097}
-  buttonsParent: {fileID: 870548805}
+  _canvas: {fileID: 283990591}
+  _buttonPrefab: {fileID: 1616965129}
+  _message: {fileID: 1383220097}
+  _buttonsParent: {fileID: 870548805}
 --- !u!114 &283990593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -857,7 +857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b643b4ad5723494684731e75fa8ec664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogUI: {fileID: 283990592}
+  _dialogUI: {fileID: 283990592}
 --- !u!1 &285781632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,9 +1040,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a426c2802ac4a12b0dd9e8c07cd83ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 286230040}
-  text: {fileID: 96638971}
-  button: {fileID: 1285731867}
+  _canvas: {fileID: 286230040}
+  _text: {fileID: 96638971}
+  _button: {fileID: 1285731867}
 --- !u!114 &286230042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7b178c4c6d421f919c78b09da0156f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  widgetUI: {fileID: 286230041}
+  _widgetUI: {fileID: 286230041}
 --- !u!1 &324149479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,10 +1283,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c23f2aed12284f7a85cdf9732ca3fa17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 475742272}
-  buttonPrefab: {fileID: 876540705}
-  message: {fileID: 1546367699}
-  buttonsParent: {fileID: 1450530961}
+  _canvas: {fileID: 475742272}
+  _buttonPrefab: {fileID: 876540705}
+  _message: {fileID: 1546367699}
+  _buttonsParent: {fileID: 1450530961}
 --- !u!114 &475742274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,7 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b300d511962647478a1bd7e779957838, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogUI: {fileID: 475742273}
+  _dialogUI: {fileID: 0}
 --- !u!1 &501732458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1471,7 +1471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a64fa6076d5244a8b8deb6e215881552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 505702372}
+  _canvas: {fileID: 505702372}
   videoButton: {fileID: 707360151}
   audioSlider: {fileID: 285781634}
 --- !u!114 &505702374
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5e149fd58b442acbebcef48674e200b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelUI: {fileID: 505702373}
+  _panelUI: {fileID: 505702373}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3381,7 +3381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4c31c979d146d7bc5a65c882146a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 1222631606}
+  _canvas: {fileID: 1222631606}
   audioButton: {fileID: 2029231402}
   resolutionButton: {fileID: 1342027478}
   resolutionText: {fileID: 1894920978}
@@ -3397,7 +3397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68b73a8318a040d18bd733050b78e68c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelUI: {fileID: 1222631607}
+  _panelUI: {fileID: 1222631607}
 --- !u!1 &1242080269
 GameObject:
   m_ObjectHideFlags: 0
@@ -4598,7 +4598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f87e923a8641f0bcf07f7fd7431bf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 1522787453}
+  _canvas: {fileID: 1522787453}
   backButton: {fileID: 1894934073}
 --- !u!114 &1522787455
 MonoBehaviour:
@@ -4612,8 +4612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a405f0e41cf84aebaeaadc1cf1401984, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenUI: {fileID: 1522787454}
-  panels:
+  _screenUI: {fileID: 1522787454}
+  _panels:
   - {fileID: 1222631608}
   - {fileID: 505702374}
 --- !u!1 &1546367697

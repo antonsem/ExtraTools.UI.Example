@@ -8,7 +8,7 @@ namespace Project.Dialogs.Fancy
 	{
 		protected override void OnClicked()
 		{
-			var settingsWidget = UIManager.GetWidget<GenericWidget>();
+			GenericWidget settingsWidget = UIManager.GetWidget<GenericWidget>();
 			settingsWidget.Show("CLICK ME!", 2, () => Debug.LogError("CLICK!"));
 
 			base.OnClicked();

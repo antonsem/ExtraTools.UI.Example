@@ -62,13 +62,13 @@ namespace Project.Screens.MainMenu
 
 		internal void OnStartGame()
 		{
-			var dialog = UIManager.GetDialog<GenericDialog>();
+			GenericDialog dialog = UIManager.GetDialog<GenericDialog>();
 			dialog.Show("Start a new game?", _newGameDialogAnswers);
 		}
 
 		internal void OnSettings()
 		{
-			var settingsScreen = UIManager.GetScreen<SettingsScreen>();
+			SettingsScreen settingsScreen = UIManager.GetScreen<SettingsScreen>();
 			settingsScreen.Show();
 		}
 
@@ -79,7 +79,7 @@ namespace Project.Screens.MainMenu
 
 		internal void OnQuit()
 		{
-			var dialog = UIManager.GetDialog<GenericDialog>();
+			GenericDialog dialog = UIManager.GetDialog<GenericDialog>();
 			dialog.Show("Are you sure you want to quit?", _quitDialogAnswers);
 		}
 

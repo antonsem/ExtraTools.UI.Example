@@ -7,8 +7,8 @@ namespace Project.Panels.AudioSettings
 {
 	public class AudioSettingsPanelUI : PanelUIBase
 	{
-		[SerializeField] private Button videoButton;
-		[SerializeField] private Slider audioSlider;
+		[SerializeField] private Button _videoButton;
+		[SerializeField] private Slider _audioSlider;
 
 		private AudioSettingsPanel _audioSettingsPanel;
 
@@ -17,14 +17,14 @@ namespace Project.Panels.AudioSettings
 
 		private void OnEnable()
 		{
-			videoButton.onClick.AddListener(OnVideo);
-			audioSlider.onValueChanged.AddListener(OnAudioChange);
+			_videoButton.onClick.AddListener(OnVideo);
+			_audioSlider.onValueChanged.AddListener(OnAudioChange);
 		}
 
 		private void OnDisable()
 		{
-			videoButton.onClick.RemoveAllListeners();
-			audioSlider.onValueChanged.RemoveAllListeners();
+			_videoButton.onClick.RemoveAllListeners();
+			_audioSlider.onValueChanged.RemoveAllListeners();
 		}
 
 		#endregion

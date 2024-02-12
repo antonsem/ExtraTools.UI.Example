@@ -8,9 +8,9 @@ namespace Project.Panels.VideoSettings
 {
 	public class VideoSettingsPanelUI : PanelUIBase
 	{
-		[SerializeField] private Button audioButton;
-		[SerializeField] private Button resolutionButton;
-		[SerializeField] private TMP_Text resolutionText;
+		[SerializeField] private Button _audioButton;
+		[SerializeField] private Button _resolutionButton;
+		[SerializeField] private TMP_Text _resolutionText;
 
 		private VideoSettingsPanel _videoSettingsPanel;
 
@@ -19,14 +19,14 @@ namespace Project.Panels.VideoSettings
 
 		private void OnEnable()
 		{
-			audioButton.onClick.AddListener(OnAudio);
-			resolutionButton.onClick.AddListener(OnResolution);
+			_audioButton.onClick.AddListener(OnAudio);
+			_resolutionButton.onClick.AddListener(OnResolution);
 		}
 
 		private void OnDisable()
 		{
-			audioButton.onClick.RemoveAllListeners();
-			resolutionButton.onClick.RemoveAllListeners();
+			_audioButton.onClick.RemoveAllListeners();
+			_resolutionButton.onClick.RemoveAllListeners();
 		}
 
 		#endregion
@@ -59,7 +59,7 @@ namespace Project.Panels.VideoSettings
 
 		internal void SetResolution(int width, int height)
 		{
-			resolutionText.text = $"{width}x{height}";
+			_resolutionText.text = $"{width}x{height}";
 		}
 
 		private void OnResolution()

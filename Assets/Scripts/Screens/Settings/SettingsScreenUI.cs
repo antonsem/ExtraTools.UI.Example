@@ -7,7 +7,7 @@ namespace Project.Screens.Settings
 {
 	public class SettingsScreenUI : ScreenUIBase
 	{
-		[SerializeField] private Button backButton;
+		[SerializeField] private Button _backButton;
 
 		private SettingsScreen _settingsScreen;
 
@@ -16,12 +16,12 @@ namespace Project.Screens.Settings
 
 		private void OnEnable()
 		{
-			backButton.onClick.AddListener(OnBack);
+			_backButton.onClick.AddListener(OnBack);
 		}
 
 		private void OnDisable()
 		{
-			backButton.onClick.RemoveAllListeners();
+			_backButton.onClick.RemoveAllListeners();
 		}
 
 		#endregion

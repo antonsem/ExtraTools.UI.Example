@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "com.ui.extratools": {
+    "com.extratools.ui": {
       "version": "https://github.com/antonsem/ExtraTools.UI.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.textmeshpro": "3.0.6"
+        "com.unity.textmeshpro": "3.0.8"
       },
-      "hash": "1f9dd3e7a6e0f0f73961b8a538552053f43e63e0"
+      "hash": "db5f59969511b07707d7d03a7af195ac3b7e01f6"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
@@ -17,7 +17,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.25",
+      "version": "3.0.27",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -26,7 +26,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.6",
+      "version": "3.0.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {

@@ -7,10 +7,10 @@ namespace Project.Screens.MainMenu
 {
 	public class MainMenuScreenUI : ScreenUIBase
 	{
-		[SerializeField] private Button startGameButton;
-		[SerializeField] private Button settingsButton;
-		[SerializeField] private Button fancyDialogButton;
-		[SerializeField] private Button quitButton;
+		[SerializeField] private Button _startGameButton;
+		[SerializeField] private Button _settingsButton;
+		[SerializeField] private Button _fancyDialogButton;
+		[SerializeField] private Button _quitButton;
 
 		private MainMenuScreen _mainMenuScreen;
 
@@ -19,18 +19,18 @@ namespace Project.Screens.MainMenu
 
 		private void OnEnable()
 		{
-			startGameButton.onClick.AddListener(OnStartGame);
-			settingsButton.onClick.AddListener(OnSettings);
-			fancyDialogButton.onClick.AddListener(OnFancyDialog);
-			quitButton.onClick.AddListener(OnQuit);
+			_startGameButton.onClick.AddListener(OnStartGame);
+			_settingsButton.onClick.AddListener(OnSettings);
+			_fancyDialogButton.onClick.AddListener(OnFancyDialog);
+			_quitButton.onClick.AddListener(OnQuit);
 		}
 
 		private void OnDisable()
 		{
-			startGameButton.onClick.RemoveAllListeners();
-			settingsButton.onClick.RemoveAllListeners();
-			fancyDialogButton.onClick.RemoveAllListeners();
-			quitButton.onClick.RemoveAllListeners();
+			_startGameButton.onClick.RemoveAllListeners();
+			_settingsButton.onClick.RemoveAllListeners();
+			_fancyDialogButton.onClick.RemoveAllListeners();
+			_quitButton.onClick.RemoveAllListeners();
 		}
 
 		#endregion

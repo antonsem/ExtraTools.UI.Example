@@ -30,7 +30,7 @@ namespace Project.Panels.VideoSettings
 
 			base.Initialize(screenBase);
 
-			_videoSettingsPanelUI = panelUI as VideoSettingsPanelUI;
+			_videoSettingsPanelUI = _panelUI as VideoSettingsPanelUI;
 		}
 
 		protected override Task HideAsync()

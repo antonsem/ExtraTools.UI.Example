@@ -6,11 +6,11 @@ namespace Project.Managers
 {
 	public class SampleSceneUIManager : UIManagerBase
 	{
-		[SerializeField] private ScreenBase defaultScreen;
+		[SerializeField] private ScreenBase _defaultScreen;
 
 		private void Start()
 		{
-			defaultScreen.Show();
+			_defaultScreen.Show();
 		}
 	}
 }

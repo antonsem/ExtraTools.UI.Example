@@ -49,7 +49,7 @@ namespace Project.Screens.Settings
 
 		internal void OnBack()
 		{
-			var mainMenuScreen = UIManager.GetScreen<MainMenuScreen>();
+			MainMenuScreen mainMenuScreen = UIManager.GetScreen<MainMenuScreen>();
 			mainMenuScreen.Show();
 		}
 	}
