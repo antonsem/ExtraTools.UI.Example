@@ -4,6 +4,7 @@ using ExtraTools.UI.Dialog;
 using ExtraTools.UI.Screen;
 using Project.Dialogs.Fancy;
 using Project.Dialogs.Generic;
+using Project.Screens.MultiplePanel;
 using Project.Screens.Settings;
 using UnityEngine;
 
@@ -50,11 +51,11 @@ namespace Project.Screens.MainMenu
 			return base.HidePanelsAsync();
 		}
 
-		protected override void ShowPanelAsync<T>()
+		protected override async Task ShowPanelAsync<T>(bool additive = false)
 		{
 			Debug.Log($"Showing panel of type {typeof(T).Name} in screen of type {GetType().Name}", this);
 
-			base.ShowPanelAsync<T>();
+			await base.ShowPanelAsync<T>(additive);
 		}
 
 		#endregion
@@ -75,6 +76,11 @@ namespace Project.Screens.MainMenu
 		internal void OnFancyDialog()
 		{
 			UIManager.GetDialog<FancyDialog>().Show("Click OK to see a widget...");
+		}
+
+		internal void OnMultiplePanels()
+		{
+			UIManager.GetScreen<MultiplePanelScreen>().Show();
 		}
 
 		internal void OnQuit()

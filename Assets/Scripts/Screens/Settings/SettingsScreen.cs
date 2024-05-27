@@ -26,25 +26,24 @@ namespace Project.Screens.Settings
 			return base.HidePanelsAsync();
 		}
 
-		protected override void ShowPanelAsync<T>()
+		protected override async Task ShowPanelAsync<T>(bool additive = false)
 		{
 			Debug.Log($"Showing panel of type {typeof(T).Name} in screen of type {GetType().Name}", this);
 
-			base.ShowPanelAsync<T>();
+			await base.ShowPanelAsync<T>(additive);
 		}
 
-		
 		#endregion
 
 
-		internal void OnVideoSettings()
+		internal async void OnVideoSettings()
 		{
-			ShowPanelAsync<VideoSettingsPanel>();
+			await ShowPanelAsync<VideoSettingsPanel>();
 		}
 
-		internal void OnAudioSettings()
+		internal async void OnAudioSettings()
 		{
-			ShowPanelAsync<AudioSettingsPanel>();
+			await ShowPanelAsync<AudioSettingsPanel>();
 		}
 
 		internal void OnBack()

@@ -21,7 +21,7 @@ namespace Project.Screens.Settings
 
 		private void OnDisable()
 		{
-			_backButton.onClick.RemoveAllListeners();
+			_backButton.onClick.RemoveListener(OnBack);
 		}
 
 		#endregion

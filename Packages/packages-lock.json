@@ -7,7 +7,7 @@
       "dependencies": {
         "com.unity.textmeshpro": "3.0.8"
       },
-      "hash": "db5f59969511b07707d7d03a7af195ac3b7e01f6"
+      "hash": "0b14a4de0038fb7a054d42f2005832e3973776c0"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
@@ -17,7 +17,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.27",
+      "version": "3.0.28",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -26,7 +26,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.8",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {

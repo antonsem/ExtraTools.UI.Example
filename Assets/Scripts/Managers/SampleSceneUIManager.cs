@@ -8,9 +8,13 @@ namespace Project.Managers
 	{
 		[SerializeField] private ScreenBase _defaultScreen;
 
+		#region Unity Methods
+
 		private void Start()
 		{
 			_defaultScreen.Show();
 		}
+
+		#endregion
 	}
 }

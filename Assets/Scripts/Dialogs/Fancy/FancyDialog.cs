@@ -6,6 +6,8 @@ namespace Project.Dialogs.Fancy
 {
 	public class FancyDialog : DialogBase
 	{
+		#region Base
+
 		protected override void OnClicked()
 		{
 			GenericWidget settingsWidget = UIManager.GetWidget<GenericWidget>();
@@ -13,5 +15,7 @@ namespace Project.Dialogs.Fancy
 
 			base.OnClicked();
 		}
+
+		#endregion
 	}
 }

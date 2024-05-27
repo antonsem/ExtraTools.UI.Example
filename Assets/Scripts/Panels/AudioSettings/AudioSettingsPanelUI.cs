@@ -23,8 +23,8 @@ namespace Project.Panels.AudioSettings
 
 		private void OnDisable()
 		{
-			_videoButton.onClick.RemoveAllListeners();
-			_audioSlider.onValueChanged.RemoveAllListeners();
+			_videoButton.onClick.RemoveListener(OnVideo);
+			_audioSlider.onValueChanged.RemoveListener(OnAudioChange);
 		}
 
 		#endregion

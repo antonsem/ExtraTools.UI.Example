@@ -25,8 +25,8 @@ namespace Project.Panels.VideoSettings
 
 		private void OnDisable()
 		{
-			_audioButton.onClick.RemoveAllListeners();
-			_resolutionButton.onClick.RemoveAllListeners();
+			_audioButton.onClick.RemoveListener(OnAudio);
+			_resolutionButton.onClick.RemoveListener(OnResolution);
 		}
 
 		#endregion

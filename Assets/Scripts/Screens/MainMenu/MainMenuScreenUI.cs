@@ -10,10 +10,10 @@ namespace Project.Screens.MainMenu
 		[SerializeField] private Button _startGameButton;
 		[SerializeField] private Button _settingsButton;
 		[SerializeField] private Button _fancyDialogButton;
+		[SerializeField] private Button _multiplePanelsExampleButton;
 		[SerializeField] private Button _quitButton;
 
 		private MainMenuScreen _mainMenuScreen;
-
 
 		#region Unity Methods
 
@@ -22,15 +22,17 @@ namespace Project.Screens.MainMenu
 			_startGameButton.onClick.AddListener(OnStartGame);
 			_settingsButton.onClick.AddListener(OnSettings);
 			_fancyDialogButton.onClick.AddListener(OnFancyDialog);
+			_multiplePanelsExampleButton.onClick.AddListener(OnMultiplePanels);
 			_quitButton.onClick.AddListener(OnQuit);
 		}
 
 		private void OnDisable()
 		{
-			_startGameButton.onClick.RemoveAllListeners();
-			_settingsButton.onClick.RemoveAllListeners();
-			_fancyDialogButton.onClick.RemoveAllListeners();
-			_quitButton.onClick.RemoveAllListeners();
+			_startGameButton.onClick.RemoveListener(OnStartGame);
+			_settingsButton.onClick.RemoveListener(OnSettings);
+			_fancyDialogButton.onClick.RemoveListener(OnFancyDialog);
+			_multiplePanelsExampleButton.onClick.RemoveListener(OnMultiplePanels);
+			_quitButton.onClick.RemoveListener(OnQuit);
 		}
 
 		#endregion
@@ -75,6 +77,11 @@ namespace Project.Screens.MainMenu
 		private void OnFancyDialog()
 		{
 			_mainMenuScreen.OnFancyDialog();
+		}
+
+		private void OnMultiplePanels()
+		{
+			_mainMenuScreen.OnMultiplePanels();
 		}
 
 		private void OnQuit()
