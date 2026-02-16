@@ -1,12 +1,9 @@
 {
   "dependencies": {
     "com.extratools.ui": "https://github.com/antonsem/ExtraTools.UI.git",
-    "com.unity.ide.rider": "3.0.34",
-    "com.unity.modules.accessibility": "1.0.0",
-    "com.unity.modules.androidjni": "1.0.0",
-    "com.unity.modules.imageconversion": "1.0.0",
-    "com.unity.modules.physics2d": "1.0.0",
-    "com.unity.modules.ui": "1.0.0",
-    "com.unity.modules.uielements": "1.0.0"
+    "com.unity.ide.rider": "3.0.39",
+    "com.unity.inputsystem": "1.17.0",
+    "com.unity.sdk.linux-x86_64": "1.0.2",
+    "com.unity.toolchain.linux-x86_64-linux": "1.0.2"
   }
 }
