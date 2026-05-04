@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using Cysharp.Threading.Tasks;
 using ExtraTools.UI.Screen;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,18 +37,18 @@ namespace Project.Screens.Settings
 			base.Initialize(screenBase);
 		}
 
-		protected override Task Show()
+		protected override UniTask Show(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing Screen UI of type {GetType().Name}", this);
 
-			return base.Show();
+			return base.Show(cancellationToken);
 		}
 
-		protected override Task Hide()
+		protected override UniTask Hide(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding Screen UI of type {GetType().Name}", this);
 
-			return base.Hide();
+			return base.Hide(cancellationToken);
 		}
 
 		#endregion

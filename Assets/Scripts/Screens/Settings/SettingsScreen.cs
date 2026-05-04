@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using Cysharp.Threading.Tasks;
 using ExtraTools.UI.Base;
 using ExtraTools.UI.Screen;
 using Project.Panels.AudioSettings;
@@ -19,29 +20,29 @@ namespace Project.Screens.Settings
 			base.Initialize(uiManager);
 		}
 
-		protected override Task HidePanelsAsync()
+		protected override UniTask HidePanelsAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding all panels in screen of type {GetType().Name}", this);
 
-			return base.HidePanelsAsync();
+			return base.HidePanelsAsync(cancellationToken);
 		}
 
-		protected override async Task ShowPanelAsync<T>(bool additive = false)
+		protected override async UniTask ShowPanelAsync<T>(bool additive = false, CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing panel of type {typeof(T).Name} in screen of type {GetType().Name}", this);
 
-			await base.ShowPanelAsync<T>(additive);
+			await base.ShowPanelAsync<T>(additive, cancellationToken);
 		}
 
 		#endregion
 
 
-		internal async void OnVideoSettings()
+		internal async UniTask OnVideoSettings()
 		{
 			await ShowPanelAsync<VideoSettingsPanel>();
 		}
 
-		internal async void OnAudioSettings()
+		internal async UniTask OnAudioSettings()
 		{
 			await ShowPanelAsync<AudioSettingsPanel>();
 		}
@@ -49,7 +50,7 @@ namespace Project.Screens.Settings
 		internal void OnBack()
 		{
 			MainMenuScreen mainMenuScreen = UIManager.GetScreen<MainMenuScreen>();
-			mainMenuScreen.Show();
+			mainMenuScreen.Show().Forget();
 		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using Cysharp.Threading.Tasks;
 using ExtraTools.UI.Panel;
 using UnityEngine;
 using UnityEngine.UI;
@@ -38,18 +39,18 @@ namespace Project.Panels.AudioSettings
 			base.Initialize(panelBase);
 		}
 
-		protected override Task ShowAsync()
+		protected override UniTask ShowAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing Panel UI of type {GetType().Name}", this);
 
-			return base.ShowAsync();
+			return base.ShowAsync(cancellationToken);
 		}
 
-		protected override Task HideAsync()
+		protected override UniTask HideAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding Panel UI of type {GetType().Name}", this);
 
-			return base.HideAsync();
+			return base.HideAsync(cancellationToken);
 		}
 
 		#endregion

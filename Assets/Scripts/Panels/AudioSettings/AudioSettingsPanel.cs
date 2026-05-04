@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using Cysharp.Threading.Tasks;
 using ExtraTools.UI.Panel;
 using ExtraTools.UI.Screen;
 using Project.Screens.Settings;
@@ -21,18 +22,18 @@ namespace Project.Panels.AudioSettings
 			base.Initialize(screenBase);
 		}
 
-		protected override Task HideAsync()
+		protected override UniTask HideAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding panel of type {GetType().Name}", this);
 
-			return base.HideAsync();
+			return base.HideAsync(cancellationToken);
 		}
 
-		protected override Task ShowAsync()
+		protected override UniTask ShowAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing panel of type {GetType().Name}, this");
 
-			return base.ShowAsync();
+			return base.ShowAsync(cancellationToken);
 		}
 
 		#endregion
@@ -40,7 +41,7 @@ namespace Project.Panels.AudioSettings
 
 		internal void OnVideo()
 		{
-			_settingsScreen.OnVideoSettings();
+			_settingsScreen.OnVideoSettings().Forget();
 		}
 
 		internal void OnAudioChange(float value)

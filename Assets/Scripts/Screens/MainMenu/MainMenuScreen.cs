@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using Cysharp.Threading.Tasks;
 using ExtraTools.UI.Base;
 using ExtraTools.UI.Dialog;
 using ExtraTools.UI.Screen;
@@ -44,18 +45,18 @@ namespace Project.Screens.MainMenu
 			base.Initialize(uiManager);
 		}
 
-		protected override Task HidePanelsAsync()
+		protected override UniTask HidePanelsAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding all panels in screen of type {GetType().Name}", this);
 
-			return base.HidePanelsAsync();
+			return base.HidePanelsAsync(cancellationToken);
 		}
 
-		protected override async Task ShowPanelAsync<T>(bool additive = false)
+		protected override async UniTask ShowPanelAsync<T>(bool additive = false, CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing panel of type {typeof(T).Name} in screen of type {GetType().Name}", this);
 
-			await base.ShowPanelAsync<T>(additive);
+			await base.ShowPanelAsync<T>(additive, cancellationToken);
 		}
 
 		#endregion
@@ -70,7 +71,7 @@ namespace Project.Screens.MainMenu
 		internal void OnSettings()
 		{
 			SettingsScreen settingsScreen = UIManager.GetScreen<SettingsScreen>();
-			settingsScreen.Show();
+			settingsScreen.Show().Forget();
 		}
 
 		internal void OnFancyDialog()
@@ -80,7 +81,7 @@ namespace Project.Screens.MainMenu
 
 		internal void OnMultiplePanels()
 		{
-			UIManager.GetScreen<MultiplePanelScreen>().Show();
+			UIManager.GetScreen<MultiplePanelScreen>().Show().Forget();
 		}
 
 		internal void OnQuit()
