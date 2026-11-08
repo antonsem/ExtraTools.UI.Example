@@ -38,7 +38,7 @@ namespace Project.Screens.MainMenu
 		internal void OnStartGame()
 		{
 			GenericDialog dialog = UIManager.GetDialog<GenericDialog>();
-			dialog.Show("Start a new game?", _newGameDialogAnswers);
+			dialog.Show("Start a new game?", _newGameDialogAnswers).Forget();
 		}
 
 		internal void OnSettings()
@@ -49,7 +49,7 @@ namespace Project.Screens.MainMenu
 
 		internal void OnFancyDialog()
 		{
-			UIManager.GetDialog<FancyDialog>().Show("Click OK to see a widget...");
+			UIManager.GetDialog<FancyDialog>().Show("Click OK to see a widget...").Forget();
 		}
 
 		internal void OnMultiplePanels()
@@ -60,7 +60,7 @@ namespace Project.Screens.MainMenu
 		internal void OnQuit()
 		{
 			GenericDialog dialog = UIManager.GetDialog<GenericDialog>();
-			dialog.Show("Are you sure you want to quit?", _quitDialogAnswers);
+			dialog.Show("Are you sure you want to quit?", _quitDialogAnswers).Forget();
 		}
 
 		private void DoQuit()

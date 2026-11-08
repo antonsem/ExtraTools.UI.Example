@@ -982,11 +982,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _canvas: {fileID: 262441594}
-  _startGameButton: {fileID: 224881572}
-  _settingsButton: {fileID: 1979404475}
   _fancyDialogButton: {fileID: 221870570}
   _multiplePanelsExampleButton: {fileID: 214327035}
   _quitButton: {fileID: 1385508898}
+  _settingsButton: {fileID: 1979404475}
+  _startGameButton: {fileID: 224881572}
 --- !u!114 &262441596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5976,7 +5976,7 @@ MonoBehaviour:
   - {fileID: 1222631608}
   - {fileID: 505702374}
   _defaultPanels:
-  - {fileID: 1222631608}
+  - {fileID: 505702374}
 --- !u!1 &1526767185
 GameObject:
   m_ObjectHideFlags: 0
@@ -8281,9 +8281,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _canvas: {fileID: 2071921874}
-  _toggleTopPanelButton: {fileID: 1640947906}
-  _toggleBottomPanelButton: {fileID: 741610208}
   _backButton: {fileID: 800970490}
+  _toggleBottomPanelButton: {fileID: 741610208}
+  _toggleTopPanelButton: {fileID: 1640947906}
 --- !u!114 &2071921876
 MonoBehaviour:
   m_ObjectHideFlags: 0
