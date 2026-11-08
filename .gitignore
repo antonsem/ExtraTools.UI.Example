@@ -154,4 +154,7 @@ sysinfo.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/rider,unity
 
+# Personal Claude Code settings
+.claude/settings.local.json
+
 
