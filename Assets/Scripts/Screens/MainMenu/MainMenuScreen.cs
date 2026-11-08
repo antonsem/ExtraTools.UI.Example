@@ -13,9 +13,8 @@ namespace Project.Screens.MainMenu
 {
 	public class MainMenuScreen : ScreenBase
 	{
-		private DialogAnswer[] _quitDialogAnswers;
 		private DialogAnswer[] _newGameDialogAnswers;
-
+		private DialogAnswer[] _quitDialogAnswers;
 
 		#region Unity Methods
 
@@ -24,43 +23,17 @@ namespace Project.Screens.MainMenu
 			_quitDialogAnswers = new[]
 			{
 				new DialogAnswer("Yes!", DoQuit),
-				new DialogAnswer("No")
+				new DialogAnswer("No"),
 			};
 
 			_newGameDialogAnswers = new[]
 			{
 				new DialogAnswer("New Game!", OnNewGame),
-				new DialogAnswer("Continue", OnContinue)
+				new DialogAnswer("Continue", OnContinue),
 			};
 		}
 
 		#endregion
-
-		#region Base
-
-		protected override void Initialize(UIManagerBase uiManager)
-		{
-			Debug.Log($"Initializing Screen of type {GetType().Name}", this);
-
-			base.Initialize(uiManager);
-		}
-
-		protected override UniTask HidePanelsAsync(CancellationToken cancellationToken = default)
-		{
-			Debug.Log($"Hiding all panels in screen of type {GetType().Name}", this);
-
-			return base.HidePanelsAsync(cancellationToken);
-		}
-
-		protected override async UniTask ShowPanelAsync<T>(bool additive = false, CancellationToken cancellationToken = default)
-		{
-			Debug.Log($"Showing panel of type {typeof(T).Name} in screen of type {GetType().Name}", this);
-
-			await base.ShowPanelAsync<T>(additive, cancellationToken);
-		}
-
-		#endregion
-
 
 		internal void OnStartGame()
 		{
@@ -104,5 +77,31 @@ namespace Project.Screens.MainMenu
 		{
 			Debug.Log("Continue", this);
 		}
+
+		#region Base
+
+		protected override void Initialize(UIManagerBase uiManager)
+		{
+			Debug.Log($"Initializing Screen of type {GetType().Name}", this);
+
+			base.Initialize(uiManager);
+		}
+
+		protected override UniTask HidePanelsAsync(CancellationToken cancellationToken = default)
+		{
+			Debug.Log($"Hiding all panels in screen of type {GetType().Name}", this);
+
+			return base.HidePanelsAsync(cancellationToken);
+		}
+
+		protected override async UniTask ShowPanelAsync<T>(bool additive = false,
+			CancellationToken cancellationToken = default)
+		{
+			Debug.Log($"Showing panel of type {typeof(T).Name} in screen of type {GetType().Name}", this);
+
+			await base.ShowPanelAsync<T>(additive, cancellationToken);
+		}
+
+		#endregion
 	}
 }
