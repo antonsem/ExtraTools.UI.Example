@@ -5975,7 +5975,8 @@ MonoBehaviour:
   _panels:
   - {fileID: 1222631608}
   - {fileID: 505702374}
-  _defaultPanels: []
+  _defaultPanels:
+  - {fileID: 1222631608}
 --- !u!1 &1526767185
 GameObject:
   m_ObjectHideFlags: 0
