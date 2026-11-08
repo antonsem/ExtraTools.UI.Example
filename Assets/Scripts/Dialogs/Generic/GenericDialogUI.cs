@@ -2,7 +2,5 @@
 
 namespace Project.Dialogs.Generic
 {
-	public class GenericDialogUI : DialogUIBase
-	{
-	}
+	public class GenericDialogUI : DialogUIBase { }
 }

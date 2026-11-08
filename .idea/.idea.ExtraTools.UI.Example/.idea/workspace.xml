@@ -12,12 +12,17 @@
   <component name="ChangeListManager">
     <list default="true" id="468a62c2-0c23-400d-b0ec-6ecd390088f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/SampleSceneUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SampleSceneUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialogUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialogUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Generic/GenericDialogUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Generic/GenericDialogUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Panels/PanelA/PanelAPanelUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Panels/PanelA/PanelAPanelUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreenUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreenUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/Settings/SettingsScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/Settings/SettingsScreenUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Widgets/GenericWidgetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Widgets/GenericWidgetUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Base/UIManagerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Base/UIManagerBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/CHANGELOG.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,61 +78,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000000002" />
-      <entry key="S10" value="1.0000000440785834" />
-      <entry key="S30" value="1.0192079135493446" />
-      <entry key="S60" value="1.5439729199455623" />
-      <entry key="M2" value="4.00273194958859" />
-      <entry key="M5" value="12.413924789676793" />
-      <entry key="M10" value="29.666554590900258" />
-      <entry key="M15" value="45.03829580893652" />
-      <entry key="M30" value="72.95696495091934" />
-      <entry key="H1" value="94.89635488603504" />
-      <entry key="H2" value="108.75172826402397" />
-      <entry key="H4" value="116.5513699520032" />
-      <entry key="D1" value="123.54449236622241" />
-      <entry key="W1" value="124.79087773043571" />
+      <entry key="MS100" value="1.0029810224351707" />
+      <entry key="MS500" value="1.3477119303283531" />
+      <entry key="S2" value="2.7453982398003154" />
+      <entry key="S5" value="5.07421540972022" />
+      <entry key="S10" value="6.919075826325668" />
+      <entry key="S30" value="8.788594185878388" />
+      <entry key="S60" value="9.367429430242137" />
+      <entry key="M2" value="9.677559314214877" />
+      <entry key="M5" value="10.226039336177696" />
+      <entry key="M10" value="13.228026900579703" />
+      <entry key="M15" value="17.625408542487687" />
+      <entry key="M30" value="34.16134879565916" />
+      <entry key="H1" value="74.04137420584105" />
+      <entry key="H2" value="134.00125730081118" />
+      <entry key="H4" value="190.264967618679" />
+      <entry key="D1" value="261.2151380405206" />
+      <entry key="W1" value="276.37368817791247" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.770598713599363E-136" />
-      <entry key="S5" value="8.80282795757919E-55" />
-      <entry key="S10" value="1.3198780583191756E-27" />
-      <entry key="S30" value="1.7392025893290092E-9" />
-      <entry key="S60" value="5.8969254592546546E-5" />
-      <entry key="M2" value="0.010859546794852355" />
-      <entry key="M5" value="0.24827832671753858" />
-      <entry key="M10" value="0.7046667149918974" />
-      <entry key="M15" value="0.9976978292847503" />
-      <entry key="M30" value="1.4125845108644421" />
-      <entry key="H1" value="1.6808238422687656" />
-      <entry key="H2" value="1.8334796467998578" />
-      <entry key="H4" value="1.9149306187689907" />
-      <entry key="D1" value="1.9855637563172959" />
-      <entry key="W1" value="1.997931271052636" />
+      <entry key="S2" value="1.585041249666188E-257" />
+      <entry key="S5" value="1.9055319175327404E-103" />
+      <entry key="S10" value="4.365239876035155E-52" />
+      <entry key="S30" value="7.585824044045304E-18" />
+      <entry key="S60" value="2.7560108792371584E-9" />
+      <entry key="M2" value="5.478638516147789E-5" />
+      <entry key="M5" value="0.030157067973808505" />
+      <entry key="M10" value="0.3193655529563218" />
+      <entry key="M15" value="0.737144132932343" />
+      <entry key="M30" value="1.8879159002396193" />
+      <entry key="H1" value="3.5534024290708404" />
+      <entry key="H2" value="5.387915059798246" />
+      <entry key="H4" value="6.872392761009607" />
+      <entry key="D1" value="8.58818625738072" />
+      <entry key="W1" value="8.939565705570002" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.00704101923914711" />
-      <entry key="MS500" value="0.3711308926572623" />
-      <entry key="S2" value="0.7805159395153923" />
-      <entry key="S5" value="0.9056339830178233" />
-      <entry key="S10" value="0.9516480792690437" />
-      <entry key="S30" value="1.0027765789994945" />
-      <entry key="S60" value="1.534905285219003" />
-      <entry key="M2" value="4.006549393188521" />
-      <entry key="M5" value="12.655758219466843" />
-      <entry key="M10" value="30.36544005249722" />
-      <entry key="M15" value="46.030952536063005" />
-      <entry key="M30" value="74.36608762094842" />
-      <entry key="H1" value="96.57510849780687" />
-      <entry key="H2" value="110.58406979184693" />
-      <entry key="H4" value="118.46570305428897" />
-      <entry key="D1" value="125.52995233076263" />
-      <entry key="W1" value="126.78879406761891" />
+      <entry key="MS100" value="0.9823602790822921" />
+      <entry key="MS500" value="1.3425515336858656" />
+      <entry key="S2" value="2.7429533104865556" />
+      <entry key="S5" value="5.07245343848826" />
+      <entry key="S10" value="6.917878639117593" />
+      <entry key="S30" value="8.788087087230547" />
+      <entry key="S60" value="9.367159057568628" />
+      <entry key="M2" value="9.677474081019678" />
+      <entry key="M5" value="10.256064920932351" />
+      <entry key="M10" value="13.546961825884745" />
+      <entry key="M15" value="18.361901318741378" />
+      <entry key="M30" value="36.048320439813324" />
+      <entry key="H1" value="77.59362223285575" />
+      <entry key="H2" value="139.38809626197465" />
+      <entry key="H4" value="197.13659059407948" />
+      <entry key="D1" value="269.8031475747638" />
+      <entry key="W1" value="285.31322716349547" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,33 +146,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;fixes-and-improvements&quot;,
-    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anton/Documents/Unity Projects/ExtraTools.UI/Packages&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "fixes-and-improvements",
+    "git.auto.fetch.suggestion.counter": "1",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/anton/Documents/Unity Projects/ExtraTools.UI/Packages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rider.code.cleanup.on.save": "true",
+    "rider.code.cleanup.on.save.profile": "Anton",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/6000.3.27f2/Editor/Unity" />
@@ -289,7 +295,18 @@
     <MESSAGE value="- fixed stopping widget" />
     <MESSAGE value="- fixed null ref when stopping widget twice" />
     <MESSAGE value="- added Forget() to show default screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added Forget() to show default screen" />
+    <MESSAGE value="- fixed intiitalization order and stack overflow" />
+    <MESSAGE value="- clearing active panels on screen hide" />
+    <MESSAGE value="- fixed re-showing panels&#10;- fixed additive bugs" />
+    <MESSAGE value="- widgets no longer depend on time scale" />
+    <MESSAGE value="- fixed showing an open dialog" />
+    <MESSAGE value="- fixed some widget exceptions" />
+    <MESSAGE value="- fixed exception reporting" />
+    <MESSAGE value="- some cancellation fixes" />
+    <MESSAGE value="- fixed animation issue" />
+    <MESSAGE value="- fixed panel transition synchronization" />
+    <MESSAGE value="- fixed openning and closing dialogs quickly with animated views" />
+    <option name="LAST_COMMIT_MESSAGE" value="- fixed openning and closing dialogs quickly with animated views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -8,11 +8,11 @@ namespace Project.Screens.MainMenu
 {
 	public class MainMenuScreenUI : ScreenUIBase
 	{
-		[SerializeField] private Button _startGameButton;
-		[SerializeField] private Button _settingsButton;
 		[SerializeField] private Button _fancyDialogButton;
 		[SerializeField] private Button _multiplePanelsExampleButton;
 		[SerializeField] private Button _quitButton;
+		[SerializeField] private Button _settingsButton;
+		[SerializeField] private Button _startGameButton;
 
 		private MainMenuScreen _mainMenuScreen;
 
@@ -63,7 +63,6 @@ namespace Project.Screens.MainMenu
 		}
 
 		#endregion
-
 
 		private void OnStartGame()
 		{

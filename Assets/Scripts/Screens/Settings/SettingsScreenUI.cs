@@ -12,7 +12,6 @@ namespace Project.Screens.Settings
 
 		private SettingsScreen _settingsScreen;
 
-
 		#region Unity Methods
 
 		private void OnEnable()
@@ -52,7 +51,6 @@ namespace Project.Screens.Settings
 		}
 
 		#endregion
-
 
 		private void OnBack()
 		{
