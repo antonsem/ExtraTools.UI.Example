@@ -12,15 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="468a62c2-0c23-400d-b0ec-6ecd390088f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialog.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialogUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialogUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Generic/GenericDialogUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Generic/GenericDialogUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Panels/PanelA/PanelAPanelUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Panels/PanelA/PanelAPanelUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreenUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MultiplePanel/MultiplePanelScreenUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/Settings/SettingsScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/Settings/SettingsScreenUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Widgets/GenericWidgetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Widgets/GenericWidgetUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
@@ -47,7 +40,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ExtraTools.UI" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -78,62 +71,65 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0029810224351707" />
-      <entry key="MS500" value="1.3477119303283531" />
-      <entry key="S2" value="2.7453982398003154" />
-      <entry key="S5" value="5.07421540972022" />
-      <entry key="S10" value="6.919075826325668" />
-      <entry key="S30" value="8.788594185878388" />
-      <entry key="S60" value="9.367429430242137" />
-      <entry key="M2" value="9.677559314214877" />
-      <entry key="M5" value="10.226039336177696" />
-      <entry key="M10" value="13.228026900579703" />
-      <entry key="M15" value="17.625408542487687" />
-      <entry key="M30" value="34.16134879565916" />
-      <entry key="H1" value="74.04137420584105" />
-      <entry key="H2" value="134.00125730081118" />
-      <entry key="H4" value="190.264967618679" />
-      <entry key="D1" value="261.2151380405206" />
-      <entry key="W1" value="276.37368817791247" />
+      <entry key="MS100" value="1.0000000000973073" />
+      <entry key="MS500" value="1.016160376669952" />
+      <entry key="S2" value="2.4368027023357923" />
+      <entry key="S5" value="5.4261957481819625" />
+      <entry key="S10" value="7.607767349684915" />
+      <entry key="S30" value="9.882826740444187" />
+      <entry key="S60" value="11.751130432049692" />
+      <entry key="M2" value="14.615683259303559" />
+      <entry key="M5" value="18.29715762012816" />
+      <entry key="M10" value="20.962954049386283" />
+      <entry key="M15" value="23.186856737658687" />
+      <entry key="M30" value="29.362807994170023" />
+      <entry key="H1" value="39.16869883670211" />
+      <entry key="H2" value="65.94611134784257" />
+      <entry key="H4" value="126.20685537844012" />
+      <entry key="D1" value="281.9685746471102" />
+      <entry key="W1" value="330.0651906512892" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.585041249666188E-257" />
-      <entry key="S5" value="1.9055319175327404E-103" />
-      <entry key="S10" value="4.365239876035155E-52" />
-      <entry key="S30" value="7.585824044045304E-18" />
-      <entry key="S60" value="2.7560108792371584E-9" />
-      <entry key="M2" value="5.478638516147789E-5" />
-      <entry key="M5" value="0.030157067973808505" />
-      <entry key="M10" value="0.3193655529563218" />
-      <entry key="M15" value="0.737144132932343" />
-      <entry key="M30" value="1.8879159002396193" />
-      <entry key="H1" value="3.5534024290708404" />
-      <entry key="H2" value="5.387915059798246" />
-      <entry key="H4" value="6.872392761009607" />
-      <entry key="D1" value="8.58818625738072" />
-      <entry key="W1" value="8.939565705570002" />
+      <entry key="MS100" value="3.451802426E-315" />
+      <entry key="MS500" value="1.2811771545704472E-63" />
+      <entry key="S2" value="1.8919179446960458E-16" />
+      <entry key="S5" value="5.137607457101356E-7" />
+      <entry key="S10" value="7.167710552959952E-4" />
+      <entry key="S30" value="0.08949391073272629" />
+      <entry key="S60" value="0.2991553287720717" />
+      <entry key="M2" value="0.5469509382081397" />
+      <entry key="M5" value="0.7856554549732855" />
+      <entry key="M10" value="0.9001304396058779" />
+      <entry key="M15" value="0.9952293718138266" />
+      <entry key="M30" value="1.3465356701174358" />
+      <entry key="H1" value="2.0289171842478138" />
+      <entry key="H2" value="3.5750548242324247" />
+      <entry key="H4" value="6.255088151648304" />
+      <entry key="D1" value="12.044849263988224" />
+      <entry key="W1" value="13.69741714947004" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9823602790822921" />
-      <entry key="MS500" value="1.3425515336858656" />
-      <entry key="S2" value="2.7429533104865556" />
-      <entry key="S5" value="5.07245343848826" />
-      <entry key="S10" value="6.917878639117593" />
-      <entry key="S30" value="8.788087087230547" />
-      <entry key="S60" value="9.367159057568628" />
-      <entry key="M2" value="9.677474081019678" />
-      <entry key="M5" value="10.256064920932351" />
-      <entry key="M10" value="13.546961825884745" />
-      <entry key="M15" value="18.361901318741378" />
-      <entry key="M30" value="36.048320439813324" />
-      <entry key="H1" value="77.59362223285575" />
-      <entry key="H2" value="139.38809626197465" />
-      <entry key="H4" value="197.13659059407948" />
-      <entry key="D1" value="269.8031475747638" />
-      <entry key="W1" value="285.31322716349547" />
+      <entry key="MS100" value="0.9726549475069319" />
+      <entry key="MS500" value="1.010525106895444" />
+      <entry key="S2" value="2.4305215417601493" />
+      <entry key="S5" value="5.41888571431244" />
+      <entry key="S10" value="7.602963152942106" />
+      <entry key="S30" value="9.966002963098365" />
+      <entry key="S60" value="12.042144053091691" />
+      <entry key="M2" value="15.155481101617651" />
+      <entry key="M5" value="19.078711582443784" />
+      <entry key="M10" value="21.860747384729883" />
+      <entry key="M15" value="24.180417783875306" />
+      <entry key="M30" value="30.708359244210822" />
+      <entry key="H1" value="41.196985851357205" />
+      <entry key="H2" value="69.52063272016126" />
+      <entry key="H4" value="132.46142641795362" />
+      <entry key="D1" value="294.0132301752106" />
+      <entry key="W1" value="343.7625753925875" />
     </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -146,34 +142,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "fixes-and-improvements",
-    "git.auto.fetch.suggestion.counter": "1",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/anton/Documents/Unity Projects/ExtraTools.UI/Packages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rider.code.cleanup.on.save": "true",
-    "rider.code.cleanup.on.save.profile": "Anton",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fixes-and-improvements&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/anton/Documents/Unity Projects/ExtraTools.UI/Packages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Anton&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/6000.3.27f2/Editor/Unity" />
@@ -306,7 +302,13 @@
     <MESSAGE value="- fixed animation issue" />
     <MESSAGE value="- fixed panel transition synchronization" />
     <MESSAGE value="- fixed openning and closing dialogs quickly with animated views" />
-    <option name="LAST_COMMIT_MESSAGE" value="- fixed openning and closing dialogs quickly with animated views" />
+    <MESSAGE value="- minor reformatting" />
+    <MESSAGE value="- added [RequireComponent] to relevant classes&#10;- fixed typo in Utils.cs&#10;- added [PublicAPI] to relevant fields" />
+    <MESSAGE value="- fixed cancelled panel" />
+    <MESSAGE value="- added dialog hiding&#10;- unifying apis" />
+    <MESSAGE value="- api fixes" />
+    <MESSAGE value="- renamed hide and show methods to showAsync and hideAsync for consistency and clarity" />
+    <option name="LAST_COMMIT_MESSAGE" value="- renamed hide and show methods to showAsync and hideAsync for consistency and clarity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
