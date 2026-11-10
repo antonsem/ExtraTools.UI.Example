@@ -12,10 +12,30 @@
   <component name="ChangeListManager">
     <list default="true" id="468a62c2-0c23-400d-b0ec-6ecd390088f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Generic/GenericDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Generic/GenericDialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Panels/VideoSettings/VideoSettingsPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Panels/VideoSettings/VideoSettingsPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLAUDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Base/UIManagerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Base/UIManagerBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/CLAUDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/CLAUDE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Dialog/DialogAnswer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Dialog/DialogAnswer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Dialog/DialogBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Dialog/DialogBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Dialog/DialogUIBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Dialog/DialogUIBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Editor/DialogBaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Editor/DialogBaseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Editor/ExtraTools.UI.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Editor/ExtraTools.UI.Editor.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Editor/PanelBaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Editor/PanelBaseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Editor/ScreenBaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Editor/ScreenBaseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Editor/WidgetBaseEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Editor/WidgetBaseEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Panel/PanelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Panel/PanelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Panel/PanelUIBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Panel/PanelUIBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Screen/ScreenBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Screen/ScreenBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Screen/ScreenUIBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Screen/ScreenUIBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetUIBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetUIBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +77,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TempScreen.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.extratools.ui@e26d7d9a7978/Base/UIManagerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,61 +91,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.002326248451646" />
-      <entry key="MS500" value="1.587906688134776" />
-      <entry key="S2" value="4.393110328676203" />
-      <entry key="S5" value="7.104679762739235" />
-      <entry key="S10" value="8.723253099272055" />
-      <entry key="S30" value="10.150883284238843" />
-      <entry key="S60" value="10.633634297912556" />
-      <entry key="M2" value="11.622457976476934" />
-      <entry key="M5" value="15.185600669592628" />
-      <entry key="M10" value="22.936238289172024" />
-      <entry key="M15" value="32.37517989693875" />
-      <entry key="M30" value="57.25218224234802" />
-      <entry key="H1" value="87.46858768270936" />
-      <entry key="H2" value="127.15430962138029" />
-      <entry key="H4" value="194.1988404382955" />
-      <entry key="D1" value="368.68245604940483" />
-      <entry key="W1" value="424.5307278618742" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.391076110212006E-293" />
+      <entry key="S2" value="1.525007613886493E-73" />
+      <entry key="S5" value="1.6395984314924037E-29" />
+      <entry key="S10" value="8.03543922349196E-15" />
+      <entry key="S30" value="5.207705395634401E-5" />
+      <entry key="S60" value="0.017367318221000738" />
+      <entry key="M2" value="0.3927009526991874" />
+      <entry key="M5" value="3.367792733834681" />
+      <entry key="M10" value="9.815305828526403" />
+      <entry key="M15" value="17.44670917850359" />
+      <entry key="M30" value="41.26867210208535" />
+      <entry key="H1" value="75.85769745608486" />
+      <entry key="H2" value="121.09451459249678" />
+      <entry key="H4" value="192.10053058816248" />
+      <entry key="D1" value="376.1399342755111" />
+      <entry key="W1" value="435.7809030594559" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.717676663575217E-237" />
-      <entry key="S5" value="1.9677801084650313E-95" />
-      <entry key="S10" value="4.4359667750624896E-48" />
-      <entry key="S30" value="1.6486766273557424E-16" />
-      <entry key="S60" value="1.4367252522839767E-8" />
-      <entry key="M2" value="2.032121923608152E-4" />
-      <entry key="M5" value="0.09770773865295072" />
-      <entry key="M10" value="0.8832748575530565" />
-      <entry key="M15" value="1.9162950581835578" />
-      <entry key="M30" value="4.375104405303552" />
-      <entry key="H1" value="7.0306317757313215" />
-      <entry key="H2" value="9.891391802449588" />
-      <entry key="H4" value="13.410290417349739" />
-      <entry key="D1" value="20.55888063429499" />
-      <entry key="W1" value="22.620632817230202" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0000000000000002" />
+      <entry key="M2" value="1.000000030398132" />
+      <entry key="M5" value="1.0028832866216573" />
+      <entry key="M10" value="1.1517313408822323" />
+      <entry key="M15" value="1.592173085367241" />
+      <entry key="M30" value="3.432100761578948" />
+      <entry key="H1" value="6.241926460599382" />
+      <entry key="H2" value="9.540940382580565" />
+      <entry key="H4" value="13.461270572067775" />
+      <entry key="D1" value="21.30891968680499" />
+      <entry key="W1" value="23.581136772889057" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9817144896204641" />
-      <entry key="MS500" value="1.582001429215732" />
-      <entry key="S2" value="4.389196968857314" />
-      <entry key="S5" value="7.102068871817351" />
-      <entry key="S10" value="8.721627836405233" />
-      <entry key="S30" value="10.150246741701206" />
-      <entry key="S60" value="10.633300112244715" />
-      <entry key="M2" value="11.622476340331458" />
-      <entry key="M5" value="15.282843386877586" />
-      <entry key="M10" value="23.817762312025078" />
-      <entry key="M15" value="34.28894283360416" />
-      <entry key="M30" value="61.62436633489541" />
-      <entry key="H1" value="94.49689172222968" />
-      <entry key="H2" value="137.04408453177928" />
-      <entry key="H4" value="207.60800725632487" />
-      <entry key="D1" value="389.2410233022176" />
-      <entry key="W1" value="447.15131026874576" />
+      <entry key="MS100" value="0.0717936471873147" />
+      <entry key="MS500" value="0.5904963307147651" />
+      <entry key="S2" value="0.8766057213160351" />
+      <entry key="S5" value="0.9486843151404539" />
+      <entry key="S10" value="0.974004268543249" />
+      <entry key="S30" value="0.9913106336441238" />
+      <entry key="S60" value="1.0129844457129704" />
+      <entry key="M2" value="1.3904590980366784" />
+      <entry key="M5" value="4.369581046921693" />
+      <entry key="M10" value="10.966072220810192" />
+      <entry key="M15" value="19.037611195363223" />
+      <entry key="M30" value="44.69887522205217" />
+      <entry key="H1" value="82.0977421251614" />
+      <entry key="H2" value="130.63398317274422" />
+      <entry key="H4" value="205.56071858085375" />
+      <entry key="D1" value="397.44853788002854" />
+      <entry key="W1" value="459.3619885774933" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -283,7 +303,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="- fixed null ref when stopping widget twice" />
     <MESSAGE value="- added Forget() to show default screen" />
     <MESSAGE value="- fixed intiitalization order and stack overflow" />
     <MESSAGE value="- clearing active panels on screen hide" />
@@ -308,7 +327,8 @@
     <MESSAGE value="- fixed empty answers array for dialog&#10;- added error for non-existent panel" />
     <MESSAGE value="- keeping default panels if assigned" />
     <MESSAGE value="- some fixes about canvas assignments" />
-    <option name="LAST_COMMIT_MESSAGE" value="- some fixes about canvas assignments" />
+    <MESSAGE value="- minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- minor fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

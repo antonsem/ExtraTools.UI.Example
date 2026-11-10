@@ -76,7 +76,7 @@ Every feature is a presenter (`XBase` subclass) plus a view (`XUIBase` subclass)
 - When investigating a bug, read the related scripts first and state the likely cause before proposing a fix.
 - Ask for the Console or Player log if a runtime error is involved.
 - Most issues come from setup, not logic. Check these first:
-  - unassigned serialized fields (`_defaultScreen`, buttons, `_topPanels`, `_bottomPanels`, `_canvas`, `_screenUI`). The changelog already records one such null reference from an unassigned button
+  - unassigned serialized fields (`_defaultScreen`, buttons, `_topPanels`, `_bottomPanels`, `Canvas`, `ScreenUI`). The changelog already records one such null reference from an unassigned button
   - a view not named `<Presenter>UI`
   - a duplicated component type under the manager
   - a component placed outside the manager's hierarchy
