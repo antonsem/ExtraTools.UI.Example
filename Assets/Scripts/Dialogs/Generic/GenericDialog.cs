@@ -2,7 +2,5 @@
 
 namespace Project.Dialogs.Generic
 {
-	public class GenericDialog : DialogBase
-	{
-	}
+	public class GenericDialog : DialogBase { }
 }

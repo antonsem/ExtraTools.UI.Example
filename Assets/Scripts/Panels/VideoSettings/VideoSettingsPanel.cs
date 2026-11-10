@@ -31,7 +31,7 @@ namespace Project.Panels.VideoSettings
 
 			base.Initialize(screenBase);
 
-			_videoSettingsPanelUI = _panelUI as VideoSettingsPanelUI;
+			_videoSettingsPanelUI = PanelUI as VideoSettingsPanelUI;
 		}
 
 		protected override UniTask HideAsync(CancellationToken cancellationToken = default)

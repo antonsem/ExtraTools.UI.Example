@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468a62c2-0c23-400d-b0ec-6ecd390088f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +27,19 @@
     </option>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="36" />
+    <option name="cachedIndexableFilesCount" value="40" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../ExtraTools.UI" value="main" />
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ExtraTools.UI" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -45,7 +55,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TempScreen.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,6 +67,68 @@
     <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0007687787319621" />
+      <entry key="MS500" value="1.4071497817506806" />
+      <entry key="S2" value="3.157766229446946" />
+      <entry key="S5" value="4.741978848047624" />
+      <entry key="S10" value="5.682545940776919" />
+      <entry key="S30" value="6.509190652642141" />
+      <entry key="S60" value="6.748897805794384" />
+      <entry key="M2" value="7.0107045409076525" />
+      <entry key="M5" value="9.178259888963506" />
+      <entry key="M10" value="14.047205333595091" />
+      <entry key="M15" value="19.77724909996061" />
+      <entry key="M30" value="40.18587327383807" />
+      <entry key="H1" value="75.52379983164944" />
+      <entry key="H2" value="124.34564778600205" />
+      <entry key="H4" value="198.6475153467854" />
+      <entry key="D1" value="391.70151650213495" />
+      <entry key="W1" value="455.04452701435804" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.7335064511331578E-219" />
+      <entry key="S5" value="3.755675328875634E-88" />
+      <entry key="S10" value="1.937956482709463E-44" />
+      <entry key="S30" value="2.6860535926498004E-15" />
+      <entry key="S60" value="5.1827151114544216E-8" />
+      <entry key="M2" value="2.2765578021530962E-4" />
+      <entry key="M5" value="0.03500756155078947" />
+      <entry key="M10" value="0.21518248504884507" />
+      <entry key="M15" value="0.5203482527860788" />
+      <entry key="M30" value="1.9620584496595517" />
+      <entry key="H1" value="4.7194849262960235" />
+      <entry key="H2" value="8.29619898198056" />
+      <entry key="H4" value="12.552494581618502" />
+      <entry key="D1" value="21.062120705949596" />
+      <entry key="W1" value="23.541925177966142" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9869908992213392" />
+      <entry key="MS500" value="1.403253607204401" />
+      <entry key="S2" value="3.1555440540081476" />
+      <entry key="S5" value="4.740609418119575" />
+      <entry key="S10" value="5.681714624712691" />
+      <entry key="S30" value="6.508870073996387" />
+      <entry key="S60" value="6.748730810559669" />
+      <entry key="M2" value="7.010826456643285" />
+      <entry key="M5" value="9.213074887212656" />
+      <entry key="M10" value="14.26204301865476" />
+      <entry key="M15" value="20.297037984831682" />
+      <entry key="M30" value="42.146751775354375" />
+      <entry key="H1" value="80.24180717551505" />
+      <entry key="H2" value="132.64053757906822" />
+      <entry key="H4" value="211.1989851997611" />
+      <entry key="D1" value="412.76332217087787" />
+      <entry key="W1" value="478.58640064710767" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -77,20 +151,26 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fixes-and-improvements&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/anton/Documents/Unity Projects/ExtraTools.UI/Packages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Anton&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.mcpserver.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/6000.3.5f2/Editor/Unity" />
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/6000.3.27f2/Editor/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -100,7 +180,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/6000.3.5f2/Editor/Unity" />
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/6000.3.27f2/Editor/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;$PROJECT_DIR$&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -111,12 +191,10 @@
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
+      <option name="coreClr" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -124,12 +202,10 @@
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
       <option name="allowRunningInParallel" value="false" />
+      <option name="coreClr" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -151,7 +227,8 @@
       <workItem from="1707768715051" duration="284000" />
       <workItem from="1771216352376" duration="1130000" />
       <workItem from="1777606286669" duration="1060000" />
-      <workItem from="1777853591195" duration="334000" />
+      <workItem from="1777853591195" duration="439000" />
+      <workItem from="1780976909054" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="- updated UI package version&#10;- cleaned up dependencies&#10;- updated Unity version">
       <option name="closed" value="true" />
@@ -169,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777853923893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- updated UI package version">
+      <option name="closed" value="true" />
+      <created>1777853935885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777853935885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,9 +281,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="- updated UI package version&#10;- cleaned up dependencies&#10;- updated Unity version" />
-    <MESSAGE value="- updated UI package version" />
-    <option name="LAST_COMMIT_MESSAGE" value="- updated UI package version" />
+    <MESSAGE value="- clearing active panels on screen hide" />
+    <MESSAGE value="- fixed re-showing panels&#10;- fixed additive bugs" />
+    <MESSAGE value="- widgets no longer depend on time scale" />
+    <MESSAGE value="- fixed showing an open dialog" />
+    <MESSAGE value="- fixed some widget exceptions" />
+    <MESSAGE value="- fixed exception reporting" />
+    <MESSAGE value="- some cancellation fixes" />
+    <MESSAGE value="- fixed animation issue" />
+    <MESSAGE value="- fixed panel transition synchronization" />
+    <MESSAGE value="- fixed openning and closing dialogs quickly with animated views" />
+    <MESSAGE value="- minor reformatting" />
+    <MESSAGE value="- added [RequireComponent] to relevant classes&#10;- fixed typo in Utils.cs&#10;- added [PublicAPI] to relevant fields" />
+    <MESSAGE value="- fixed cancelled panel" />
+    <MESSAGE value="- added dialog hiding&#10;- unifying apis" />
+    <MESSAGE value="- api fixes" />
+    <MESSAGE value="- renamed hide and show methods to showAsync and hideAsync for consistency and clarity" />
+    <MESSAGE value="- matching overrides for async methods" />
+    <MESSAGE value="- added widget hiding" />
+    <MESSAGE value="- minor updates" />
+    <MESSAGE value="- fixed empty answers array for dialog&#10;- added error for non-existent panel" />
+    <MESSAGE value="- keeping default panels if assigned" />
+    <MESSAGE value="- some fixes about canvas assignments" />
+    <MESSAGE value="- minor fixes" />
+    <MESSAGE value="- public api and name changes" />
+    <MESSAGE value="- final touches" />
+    <option name="LAST_COMMIT_MESSAGE" value="- final touches" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

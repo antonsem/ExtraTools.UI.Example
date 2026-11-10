@@ -13,7 +13,6 @@ namespace Project.Panels.AudioSettings
 
 		private AudioSettingsPanel _audioSettingsPanel;
 
-
 		#region Unity Methods
 
 		private void OnEnable()
@@ -54,7 +53,6 @@ namespace Project.Panels.AudioSettings
 		}
 
 		#endregion
-
 
 		private void OnVideo()
 		{
