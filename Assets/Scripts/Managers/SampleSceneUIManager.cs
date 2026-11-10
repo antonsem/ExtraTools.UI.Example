@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using ExtraTools.UI.Base;
 using ExtraTools.UI.Screen;
 using UnityEngine;
@@ -12,7 +13,7 @@ namespace Project.Managers
 
 		private void Start()
 		{
-			_defaultScreen.Show();
+			_defaultScreen.Show().Forget();
 		}
 
 		#endregion

@@ -2,7 +2,5 @@
 
 namespace Project.Dialogs.Fancy
 {
-	public class FancyDialogUI : DialogUIBase
-	{
-	}
+	public class FancyDialogUI : DialogUIBase { }
 }

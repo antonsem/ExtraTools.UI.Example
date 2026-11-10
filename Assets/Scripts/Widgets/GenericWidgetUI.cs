@@ -2,7 +2,5 @@
 
 namespace Project.Widgets
 {
-	public class GenericWidgetUI : WidgetUIBase
-	{
-	}
+	public class GenericWidgetUI : WidgetUIBase { }
 }

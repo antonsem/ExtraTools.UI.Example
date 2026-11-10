@@ -11,6 +11,22 @@ namespace Project.Screens.Settings
 {
 	public class SettingsScreen : ScreenBase
 	{
+		internal async UniTask OnVideoSettings()
+		{
+			await ShowPanelAsync<VideoSettingsPanel>();
+		}
+
+		internal async UniTask OnAudioSettings()
+		{
+			await ShowPanelAsync<AudioSettingsPanel>();
+		}
+
+		internal void OnBack()
+		{
+			MainMenuScreen mainMenuScreen = UIManager.GetScreen<MainMenuScreen>();
+			mainMenuScreen.Show().Forget();
+		}
+
 		#region Base
 
 		protected override void Initialize(UIManagerBase uiManager)
@@ -27,7 +43,8 @@ namespace Project.Screens.Settings
 			return base.HidePanelsAsync(cancellationToken);
 		}
 
-		protected override async UniTask ShowPanelAsync<T>(bool additive = false, CancellationToken cancellationToken = default)
+		protected override async UniTask ShowPanelAsync<T>(bool additive = false,
+			CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing panel of type {typeof(T).Name} in screen of type {GetType().Name}", this);
 
@@ -35,22 +52,5 @@ namespace Project.Screens.Settings
 		}
 
 		#endregion
-
-
-		internal async UniTask OnVideoSettings()
-		{
-			await ShowPanelAsync<VideoSettingsPanel>();
-		}
-
-		internal async UniTask OnAudioSettings()
-		{
-			await ShowPanelAsync<AudioSettingsPanel>();
-		}
-
-		internal void OnBack()
-		{
-			MainMenuScreen mainMenuScreen = UIManager.GetScreen<MainMenuScreen>();
-			mainMenuScreen.Show().Forget();
-		}
 	}
 }

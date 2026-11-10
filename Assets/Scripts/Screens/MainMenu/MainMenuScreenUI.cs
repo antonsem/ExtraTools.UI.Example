@@ -8,11 +8,11 @@ namespace Project.Screens.MainMenu
 {
 	public class MainMenuScreenUI : ScreenUIBase
 	{
-		[SerializeField] private Button _startGameButton;
-		[SerializeField] private Button _settingsButton;
 		[SerializeField] private Button _fancyDialogButton;
 		[SerializeField] private Button _multiplePanelsExampleButton;
 		[SerializeField] private Button _quitButton;
+		[SerializeField] private Button _settingsButton;
+		[SerializeField] private Button _startGameButton;
 
 		private MainMenuScreen _mainMenuScreen;
 
@@ -48,22 +48,21 @@ namespace Project.Screens.MainMenu
 			base.Initialize(screenBase);
 		}
 
-		protected override UniTask Show(CancellationToken cancellationToken = default)
+		protected override UniTask ShowAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing Screen UI of type {GetType().Name}", this);
 
-			return base.Show(cancellationToken);
+			return base.ShowAsync(cancellationToken);
 		}
 
-		protected override UniTask Hide(CancellationToken cancellationToken = default)
+		protected override UniTask HideAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding Screen UI of type {GetType().Name}", this);
 
-			return base.Hide(cancellationToken);
+			return base.HideAsync(cancellationToken);
 		}
 
 		#endregion
-
 
 		private void OnStartGame()
 		{

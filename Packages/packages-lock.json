@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "a77a1b4a89824fb6df293099de3060daf2a432c1"
+    },
     "com.extratools.ui": {
       "version": "https://github.com/antonsem/ExtraTools.UI.git",
       "depth": 0,
@@ -7,25 +14,17 @@
       "dependencies": {
         "com.unity.ugui": "2.0.0"
       },
-      "hash": "ca3fda4264ae05738c7729d94c7626efc9f75700"
-    },
-    "com.unity.ext.nunit": {
-      "version": "2.0.5",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {}
+      "hash": "24e03253d147f87fb54cc9e1995a8bdbc4f10931"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.40",
+      "version": "3.1.0",
       "depth": 0,
       "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.17.0",
+      "version": "1.20.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -34,27 +33,27 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.sdk.linux-x86_64": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot.base": "1.1.0"
+        "com.unity.sysroot.base": "1.1.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.sysroot.base": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.linux-x86_64-linux": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot.base": "1.1.0"
+        "com.unity.sysroot.base": "1.1.1"
       },
       "url": "https://packages.unity.com"
     },

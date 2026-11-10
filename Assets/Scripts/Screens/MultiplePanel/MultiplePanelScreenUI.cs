@@ -6,12 +6,11 @@ namespace Project.Screens.MultiplePanel
 {
 	public class MultiplePanelScreenUI : ScreenUIBase
 	{
-		[SerializeField] private Button _toggleTopPanelButton;
-		[SerializeField] private Button _toggleBottomPanelButton;
 		[SerializeField] private Button _backButton;
+		[SerializeField] private Button _toggleBottomPanelButton;
+		[SerializeField] private Button _toggleTopPanelButton;
 
 		private MultiplePanelScreen _multiplePanelScreen;
-
 
 		#region Unity Methods
 
@@ -41,15 +40,14 @@ namespace Project.Screens.MultiplePanel
 
 		#endregion
 
-
 		private void OnToggleTop()
 		{
-			_multiplePanelScreen.ToggleTopPanel();
+			_multiplePanelScreen.ToggleTopPanel().Forget();
 		}
 
 		private void OnToggleBottom()
 		{
-			_multiplePanelScreen.ToggleBottomPanel();
+			_multiplePanelScreen.ToggleBottomPanel().Forget();
 		}
 
 		private void OnBack()

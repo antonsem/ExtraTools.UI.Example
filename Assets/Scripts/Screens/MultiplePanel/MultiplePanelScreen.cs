@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using ExtraTools.UI.Panel;
 using ExtraTools.UI.Screen;
 using Project.Screens.MainMenu;
@@ -13,14 +14,14 @@ namespace Project.Screens.MultiplePanel
 		private int _activeTopPanel;
 		private int _activeBottomPanel;
 
-		internal async void ToggleTopPanel()
+		internal async UniTaskVoid ToggleTopPanel()
 		{
 			await HidePanelAsync(_topPanels[_activeTopPanel]);
 			_activeTopPanel = (_activeTopPanel + 1) % _topPanels.Length;
 			await ShowPanelAsync(_topPanels[_activeTopPanel], true);
 		}
 
-		internal async void ToggleBottomPanel()
+		internal async UniTaskVoid ToggleBottomPanel()
 		{
 			await HidePanelAsync(_bottomPanels[_activeBottomPanel]);
 			_activeBottomPanel = (_activeBottomPanel + 1) % _bottomPanels.Length;
@@ -29,7 +30,7 @@ namespace Project.Screens.MultiplePanel
 
 		internal void OnBack()
 		{
-			UIManager.GetScreen<MainMenuScreen>().Show();
+			UIManager.GetScreen<MainMenuScreen>().Show().Forget();
 		}
 	}
 }

@@ -12,7 +12,6 @@ namespace Project.Screens.Settings
 
 		private SettingsScreen _settingsScreen;
 
-
 		#region Unity Methods
 
 		private void OnEnable()
@@ -37,22 +36,21 @@ namespace Project.Screens.Settings
 			base.Initialize(screenBase);
 		}
 
-		protected override UniTask Show(CancellationToken cancellationToken = default)
+		protected override UniTask ShowAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Showing Screen UI of type {GetType().Name}", this);
 
-			return base.Show(cancellationToken);
+			return base.ShowAsync(cancellationToken);
 		}
 
-		protected override UniTask Hide(CancellationToken cancellationToken = default)
+		protected override UniTask HideAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding Screen UI of type {GetType().Name}", this);
 
-			return base.Hide(cancellationToken);
+			return base.HideAsync(cancellationToken);
 		}
 
 		#endregion
-
 
 		private void OnBack()
 		{
