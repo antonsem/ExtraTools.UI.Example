@@ -12,10 +12,16 @@
   <component name="ChangeListManager">
     <list default="true" id="468a62c2-0c23-400d-b0ec-6ecd390088f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExtraTools.UI.Example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/MainMenu/MainMenuScreenUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Screens/Settings/SettingsScreenUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Screens/Settings/SettingsScreenUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogs/Fancy/FancyDialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Widgets/GenericWidgetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Widgets/GenericWidgetUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLAUDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Base/UIManagerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Base/UIManagerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ExtraTools.UI/Widget/WidgetTask.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +35,7 @@
     </option>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="15" />
+    <option name="cachedIndexableFilesCount" value="40" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -40,7 +46,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ExtraTools.UI" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -71,61 +77,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000973073" />
-      <entry key="MS500" value="1.016160376669952" />
-      <entry key="S2" value="2.4368027023357923" />
-      <entry key="S5" value="5.4261957481819625" />
-      <entry key="S10" value="7.607767349684915" />
-      <entry key="S30" value="9.882826740444187" />
-      <entry key="S60" value="11.751130432049692" />
-      <entry key="M2" value="14.615683259303559" />
-      <entry key="M5" value="18.29715762012816" />
-      <entry key="M10" value="20.962954049386283" />
-      <entry key="M15" value="23.186856737658687" />
-      <entry key="M30" value="29.362807994170023" />
-      <entry key="H1" value="39.16869883670211" />
-      <entry key="H2" value="65.94611134784257" />
-      <entry key="H4" value="126.20685537844012" />
-      <entry key="D1" value="281.9685746471102" />
-      <entry key="W1" value="330.0651906512892" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.0154331205661856E-95" />
+      <entry key="S2" value="1.1916161226396755E-23" />
+      <entry key="S5" value="3.374632985953079E-9" />
+      <entry key="S10" value="2.2423750637623818E-4" />
+      <entry key="S30" value="0.3749613529390592" />
+      <entry key="S60" value="2.5308802312761927" />
+      <entry key="M2" value="7.416731563539834" />
+      <entry key="M5" value="17.855497353200743" />
+      <entry key="M10" value="26.757922092164577" />
+      <entry key="M15" value="31.931463071383742" />
+      <entry key="M30" value="41.6634419398222" />
+      <entry key="H1" value="53.72496657668155" />
+      <entry key="H2" value="81.35013364979805" />
+      <entry key="H4" value="141.8797999790053" />
+      <entry key="D1" value="299.7520248176845" />
+      <entry key="W1" value="348.86208215508674" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.451802426E-315" />
-      <entry key="MS500" value="1.2811771545704472E-63" />
-      <entry key="S2" value="1.8919179446960458E-16" />
-      <entry key="S5" value="5.137607457101356E-7" />
-      <entry key="S10" value="7.167710552959952E-4" />
-      <entry key="S30" value="0.08949391073272629" />
-      <entry key="S60" value="0.2991553287720717" />
-      <entry key="M2" value="0.5469509382081397" />
-      <entry key="M5" value="0.7856554549732855" />
-      <entry key="M10" value="0.9001304396058779" />
-      <entry key="M15" value="0.9952293718138266" />
-      <entry key="M30" value="1.3465356701174358" />
-      <entry key="H1" value="2.0289171842478138" />
-      <entry key="H2" value="3.5750548242324247" />
-      <entry key="H4" value="6.255088151648304" />
-      <entry key="D1" value="12.044849263988224" />
-      <entry key="W1" value="13.69741714947004" />
+      <entry key="MS100" value="1.0000000008220813" />
+      <entry key="MS500" value="1.0152399290863694" />
+      <entry key="S2" value="1.3513546750516798" />
+      <entry key="S5" value="1.6581097039759025" />
+      <entry key="S10" value="1.8112396094717655" />
+      <entry key="S30" value="1.932645502558886" />
+      <entry key="S60" value="1.9664194887041506" />
+      <entry key="M2" value="2.008871806071752" />
+      <entry key="M5" value="2.225894612339637" />
+      <entry key="M10" value="2.4865480705583587" />
+      <entry key="M15" value="2.661218378064044" />
+      <entry key="M30" value="3.098324830435698" />
+      <entry key="H1" value="3.832789866237164" />
+      <entry key="H2" value="5.398118921330013" />
+      <entry key="H4" value="8.098451671920266" />
+      <entry key="D1" value="13.994069897624135" />
+      <entry key="W1" value="15.68915321456178" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549475069319" />
-      <entry key="MS500" value="1.010525106895444" />
-      <entry key="S2" value="2.4305215417601493" />
-      <entry key="S5" value="5.41888571431244" />
-      <entry key="S10" value="7.602963152942106" />
-      <entry key="S30" value="9.966002963098365" />
-      <entry key="S60" value="12.042144053091691" />
-      <entry key="M2" value="15.155481101617651" />
-      <entry key="M5" value="19.078711582443784" />
-      <entry key="M10" value="21.860747384729883" />
-      <entry key="M15" value="24.180417783875306" />
-      <entry key="M30" value="30.708359244210822" />
-      <entry key="H1" value="41.196985851357205" />
-      <entry key="H2" value="69.52063272016126" />
-      <entry key="H4" value="132.46142641795362" />
-      <entry key="D1" value="294.0132301752106" />
-      <entry key="W1" value="343.7625753925875" />
+      <entry key="MS100" value="2.4342913877054825E-7" />
+      <entry key="MS500" value="0.05144281071153087" />
+      <entry key="S2" value="0.7165689530524187" />
+      <entry key="S5" value="1.3113924483477861" />
+      <entry key="S10" value="1.6165630407570835" />
+      <entry key="S30" value="2.236565368724002" />
+      <entry key="S60" value="4.45955243776838" />
+      <entry key="M2" value="9.404823654382225" />
+      <entry key="M5" value="20.071243447327188" />
+      <entry key="M10" value="29.238548614311735" />
+      <entry key="M15" value="34.588423446736975" />
+      <entry key="M30" value="44.759365438551804" />
+      <entry key="H1" value="57.556381765053324" />
+      <entry key="H2" value="86.74734119411936" />
+      <entry key="H4" value="149.9775449138536" />
+      <entry key="D1" value="313.7458679765767" />
+      <entry key="W1" value="364.55119814825684" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -165,7 +171,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
     &quot;rider.code.cleanup.on.save.profile&quot;: &quot;Anton&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.mcpserver.settings&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -283,7 +289,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="- updated UI package version&#10;- cleaned up dependencies&#10;- updated Unity version" />
     <MESSAGE value="- updated UI package version" />
     <MESSAGE value="- added CLAUDE.md&#10;- ignoreing NOTES.md" />
     <MESSAGE value="- added CLAUDE.md&#10;- ignoring NOTES.md&#10;- updated Unity version" />
@@ -308,7 +313,8 @@
     <MESSAGE value="- added dialog hiding&#10;- unifying apis" />
     <MESSAGE value="- api fixes" />
     <MESSAGE value="- renamed hide and show methods to showAsync and hideAsync for consistency and clarity" />
-    <option name="LAST_COMMIT_MESSAGE" value="- renamed hide and show methods to showAsync and hideAsync for consistency and clarity" />
+    <MESSAGE value="- matching overrides for async methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="- matching overrides for async methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

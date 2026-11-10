@@ -1,4 +1,5 @@
-﻿using ExtraTools.UI.Dialog;
+﻿using Cysharp.Threading.Tasks;
+using ExtraTools.UI.Dialog;
 using Project.Widgets;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ namespace Project.Dialogs.Fancy
 		protected override void OnClicked()
 		{
 			GenericWidget settingsWidget = UIManager.GetWidget<GenericWidget>();
-			settingsWidget.Show("CLICK ME!", 2, () => Debug.LogError("CLICK!"));
+			settingsWidget.Show("CLICK ME!", 2, () => Debug.LogError("CLICK!")).Forget();
 
 			base.OnClicked();
 		}

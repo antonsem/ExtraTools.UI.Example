@@ -40,7 +40,6 @@ Every feature is a presenter (`XBase` subclass) plus a view (`XUIBase` subclass)
 ## Async
 - The package API is UniTask based, not `Task`. Keep override signatures identical, including the `CancellationToken cancellationToken = default` parameter where the base has it.
 - Awaited calls return `UniTask`. Mark fire-and-forget calls from sync handlers with `.Forget()` (`settingsScreen.Show().Forget();`).
-- Dialog and widget `Show(...)` are `void`, so there is nothing to forget.
 
 ## Coding conventions
 - Match the package style:
