@@ -21,7 +21,6 @@ namespace Project.Managers
 
 		private void Start()
 		{
-			GetDialog<Project.Dialogs.Generic.GenericDialog>().Show("Startup test").Forget();
 			_defaultScreen.Show().Forget();
 		}
 
