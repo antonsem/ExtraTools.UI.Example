@@ -31,7 +31,7 @@ namespace Project.Panels.AudioSettings
 
 		protected override UniTask ShowAsync(CancellationToken cancellationToken = default)
 		{
-			Debug.Log($"Showing panel of type {GetType().Name}, this");
+			Debug.Log($"Showing panel of type {GetType().Name}", this);
 
 			return base.ShowAsync(cancellationToken);
 		}
