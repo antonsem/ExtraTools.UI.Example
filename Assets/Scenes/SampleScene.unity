@@ -7022,6 +7022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _defaultScreen: {fileID: 262441596}
+  _inputModule: {fileID: 1365591247}
 --- !u!224 &1741150648
 RectTransform:
   m_ObjectHideFlags: 0
