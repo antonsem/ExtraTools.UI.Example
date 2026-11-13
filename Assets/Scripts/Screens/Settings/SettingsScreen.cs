@@ -36,6 +36,12 @@ namespace Project.Screens.Settings
 			base.Initialize(uiManager);
 		}
 
+		protected override bool OnCancel()
+		{
+			OnBack();
+			return true;
+		}
+
 		protected override UniTask HidePanelsAsync(CancellationToken cancellationToken = default)
 		{
 			Debug.Log($"Hiding all panels in screen of type {GetType().Name}", this);

@@ -23,7 +23,8 @@ namespace Project.Screens.MainMenu
 			_quitDialogAnswers = new[]
 			{
 				new DialogAnswer("Yes!", DoQuit),
-				new DialogAnswer("No"),
+				// Default, so it is focused and used for Cancel: a stray Submit or Back press does not quit.
+				new DialogAnswer("No", isDefault: true),
 			};
 
 			_newGameDialogAnswers = new[]
