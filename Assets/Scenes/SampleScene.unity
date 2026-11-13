@@ -7021,6 +7021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b4e95a8716bce47aa8b7943ccb952d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _keepSelection: 1
   _defaultScreen: {fileID: 262441596}
   _inputModule: {fileID: 1365591247}
 --- !u!224 &1741150648
