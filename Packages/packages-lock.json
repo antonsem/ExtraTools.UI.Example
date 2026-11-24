@@ -14,10 +14,10 @@
       "dependencies": {
         "com.unity.ugui": "2.0.0"
       },
-      "hash": "0993336c460be3631ffb97250e2b551a76b053ad"
+      "hash": "777789cf2e1ad70ca81c6c3cbe48740631067e41"
     },
     "com.unity.ide.rider": {
-      "version": "3.1.0",
+      "version": "3.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
